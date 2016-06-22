@@ -221,7 +221,7 @@ def buildTime() {
 }
 
 def hostName() {
-    return System.getProperty("user.name") + "@" + InetAddress.localHost.hostName
+    return "localhost"
 }
 
 def revision() {
